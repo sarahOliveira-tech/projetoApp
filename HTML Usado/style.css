@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+}
+
+pre {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+    color: #007BFF;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
