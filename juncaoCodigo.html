@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junção do HTML com CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header><strong>Aqui temos uma breve explicação sobre a junção do HTML com o CSS e o porquê de sua importância</strong></header>
+
+<body>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="introducao.html">Página principal</a></li>
+                <li><a href="cssUsado.html">CSS usado no projeto</a></li>
+                <li><a href="hymlUsado.html">HTML da página principal</a></li>
+                <li class="active"><a href="juncaoCodigo.html">Junçaõ de HTML e CSS</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <figure class="image-row">
+        <img src="htmlCssIlustracao.jfif" alt="HTML e CSS" width="300" height="300">
+        <figcaption>Imagem do HTML5 e CSS3</figcaption>
+    </figure>
+
+    <h1>Principais elementos de junção entre HTML e CSS</h1>
+    <p>Para estilizar uma página HTML, indica-se o uso de um arquivo CSS externo. Há também a possibilidade de estilizá-lo em linha, porém não é uma boa prática no HTML 5</p>
+    <h2><strong>EM LINHA</strong></h2>
+    <pre><code>&lt;p style="color: ##027fe9;"&gt; Exemplo de código &lt;/p&gt;</code></pre>
+    <h2><strong>EM ARQUIVO CSS</strong></h2>
+    <pre><code>
+    p{
+        color: #027fe9;    
+    }
+    </code></pre>
+
+    <p>Quando lincamos um aqrvivo CSS na página HTML, todos os elementos que forem estilizados no arquivo CSS serão estilizados na página HTML</p>
+    <p>No código de exmplo da estiização em arquivo externo, todos os elementos &lt;p&gt; no HTML serão estilizados da maneira que foram designados no arquivo CSS</p>
+    <p>Uma forma de estilizar elementos iguais de maneiras diferentes é usando containers</p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Tabela sobre elementos containers e de estilização</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Id</td>
+                <td>Usado para identificar um elemento</td>
+            </tr>
+            
+            <tr>
+                    <td>Class</td>
+                    <td>Agrupa vários elemntos para estilização e comportamento</td>
+            </tr>
+    
+            <tr>
+                    <td>Div</td>
+                    <td>Agrupa e organiza o conteúdo para fins de estilização e estruturação</td>
+            </tr>
+
+            <tr>
+                <td>Section</td>
+                <td>Indica uma seção do documento com conteúdo específico</td> <!-- Localização do CERN (Organização Europeia para a Pesquisa Nuclear) -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Desenvolvido por Sarah e Vitor</th>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
